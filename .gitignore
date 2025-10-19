@@ -1,0 +1,27 @@
+# data / cache
+data/
+datasets/
+*.zip
+*.tar*
+__pycache__/
+.ipynb_checkpoints/
+*.ipynb_save
+results/
+results_*/
+outputs/
+wandb/
+.cache/
+.huggingface/
+
+# envs / build
+.env
+.venv/
+.envrc
+*.egg-info/
+dist/
+build/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
